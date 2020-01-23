@@ -1,0 +1,128 @@
+Java:
+
+Qué es un lenguaje de programación.
+
+Es un lenguaje formal que proporciona una serie de instrucciones que permiten a un programador escribir frecuencia de ordenes y algoritmos a modo de 
+controlar el comportamiento físico y lógico de una computadora, con el objetivo que produzca diversos datos.
+
+Lenguajes interpretados contra lenguajes interpretados.
+
+Lenguajes interpretados:
+Son multi-plataforma (recordemos que una plataforma es un sistema operativo que ejecuta programas, por lo que son mas flexibles pero se requiere de un 
+interprete). Programa informático que analiza y ejecuta otros programas para traducirlo y qu ella maquina lo reconozca.
+Ejemplos: 
+Java
+Go
+c 
+Fortan
+
+programa fuente    —>    Interprete    —>  Salida.
+Entrada
+
+
+Lenguajes compilados:
+Esta preparados para ejecutarse inmediatamente ya que durante la compilación se tradujo todo a in lenguaje que la maquina entendiera y por esto son mas rápidos.
+Ejemplos:
+Java 
+Ruby
+Phyton
+
+
+Entorno de desarrollo, programa a utilizar, para programar.
+eclipse.
+
+JRE: Java Runtime Enviroment, maquina virtual de Java
+
+Por que es necesaria su instalación?
+por culpa de la principal característica que es multiplataforma.
+
+La característica de ser multiplataforma implica que un programa escrito en java debe ser compilado para posteriormente ser interpretado por la maquina
+ virtual de Java JRE.
+
+Codigo fuente    —>    Compilador  —>  Codigo maquina
+int main(){						101010110101010	
+	Hola mundo
+}
+
+Bytecodes:
+permiten que un programa de Java pueda ser ejecutado en cualquier sistema operativo. es un fichero que tiene un lenguaje que no llega a ser código maquina 
+pero tampoco llega hacer código fuente es un fichero intermedio. tendrá extension .class,
+a este fichero se le aplica el JRE.
+
+En conclusión primero debemos compilar
+
+clase:
+Una clase es una plantilla que contiene código de java.
+java con ayuda del bycod nos ayuda a traducir del lenguaje humano al lenguaje maquina.
+
+public class Diego{
+    public static void main(String args[]){
+        System.out.println("Hola Mundo");
+    
+}
+
+Errores lógicos y errores sintácticos.
+Errores lógicos:
+
+Errores sintácticos:
+la falta de un punto y coma, la falta de un paréntesis, 
+la falta de un código, por estos errores no se podría ejecutar la aplicación.
+
+Tipos de datos primitivos
+Enteros:
+	byte
+	short
+	int     
+	long
+
+Decimales:
+	Float  =  hasta 15 decimales
+	Double
+
+Otros:
+	Char = ‘g’
+	Boolean = false
+
+Tipos de dato de tipo objeto
+Son considerados como clases
+	String (Cadenas de texto).
+
+Operadores Aritmeticos.
++,  -,  /,   *
+
+prioridad de los operadores
+1.  Todo lo que esta en ( )
+2. Las potencias  
+3. Multiplicación y división
+4. Sumas y restas.
+
+Estructuras condicionales if -else
+No ayudan a tomar decisiones  si o No, esta compuesta por su condición y por dos estados si o no.
+
+librerías.
+
+Funcionan igual que en node.js, código ya programado que nos ayuda a realizar nuestras tareas.
+
+Import java.util.Scanner;      sirve para ingresar información hacia el teclado
+
+Operadores relacionales
+1.    <
+2.    >
+3.    ==
+4.    !=
+5.    <=
+6.    >=
+
+Operadores logicos.
+
+1.     &&   - ->   and        haz la tarea  y (&&)  lava la ropa
+2.     | |     - ->  Or           haz la tarea   o (| | )  lava la ropa
+
+Cadenas de caracteres
+Se definen por medio de String
+
+nombre.equals("nombre")    -->  Sirve para verificar que la avariable nombre sea igual a juan.
+
+if(nombreUno.equals(nombreDos)){
+    
+}
